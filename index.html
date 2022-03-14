@@ -6,7 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- 1) Create a title for this webpage -->
     <title>The title is displayed on the Tab</title>
-    <style></style>
+    <style>
+      body {
+        max-width: 50%;
+        margin: 0 auto;
+        border: 0 auto;
+      }
+      h1 {
+        text-align: center;
+      }
+      a {
+        color: greenyellow;
+      }
+      .bordered {
+        border: 1px solid red;
+      }
+      table {
+        border-radius: 80px;
+        border: 1px solid red;
+        padding: 20px;
+      }
+      p {
+        margin: 1em;
+      }
+    </style>
   </head>
   <body>
     <!-- 2) Create a heading of your choice -->
@@ -76,7 +99,7 @@
       <li>item 3</li>
     </ul>
     <!-- 10) Create a footer with some information about the page creator -->
-    <footer>
+    <footer class="bordered">
       <p>Yes this is a footer</p>
     </footer>
 
